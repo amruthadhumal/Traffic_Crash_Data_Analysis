@@ -133,6 +133,15 @@ df.isnull().sum()
 ### Purpose
 
 Identifies incomplete records that may affect analysis.
+________________________________________
+
+### Check Duplicate Values
+
+df.duplicated()
+
+### Purpose
+
+Identifies duplicate records that may affect analysis.
 
 ________________________________________
 
