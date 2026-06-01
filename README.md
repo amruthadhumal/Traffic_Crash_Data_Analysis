@@ -41,6 +41,8 @@ The project uses:
 
 ## 📂 Dataset Information
 
+Data Set Link: <a href="https://drive.google.com/file/d/1jAFsxF8ri--wYC1A-8k_Otdlf8xfcODN/view?usp=sharing">Traffic_CrashesData</a>
+
 The project uses a Traffic Crash dataset containing:
 
 * Crash Record ID
