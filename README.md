@@ -252,6 +252,9 @@ that result in the highest number of crashes.
 
 #### Business Value
 Helps authorities identify high-risk driving situations.
+
+<img width="1390" height="524" alt="image" src="https://github.com/user-attachments/assets/d1d23242-f684-47bc-af3e-89421a0b8e60" />
+
 ________________________________________
 ### Query 2
 Top 10 Streets with Highest Injury Crashes
@@ -266,6 +269,8 @@ Supports:
 
 •	Infrastructure upgrades
 
+<img width="1367" height="783" alt="image" src="https://github.com/user-attachments/assets/b22c9273-6149-4531-9234-7a10292c3491" />
+
 ________________________________________
 ### Query 3
 Injury Percentage by Crash Type
@@ -275,6 +280,9 @@ Calculate:
 for every crash type.
 #### Business Value
 Highlights crash types that are most dangerous.
+
+<img width="1380" height="409" alt="image" src="https://github.com/user-attachments/assets/e57c0653-1ea6-4f90-8d51-6f07322ecff2" />
+
 ________________________________________
 ### Query 4
 Peak Crash Hour for Each Month
@@ -292,6 +300,9 @@ Techniques Used
 
 #### Business Value
 Helps deploy enforcement resources effectively.
+
+<img width="1377" height="793" alt="image" src="https://github.com/user-attachments/assets/274a7ad9-df56-41e2-a0c1-b5bddcf07902" />
+
 ________________________________________
 ### Query 5
 Top Night-Time Crash Causes
@@ -299,6 +310,9 @@ Top Night-Time Crash Causes
 Analyze crashes occurring after 6 PM.
 #### Business Value
 Identifies risky behaviours during night driving.
+
+<img width="1378" height="574" alt="image" src="https://github.com/user-attachments/assets/42670368-1661-441b-8782-a90be82663d3" />
+
 ________________________________________
 ### Query 6
 Daylight vs Darkness Injury Comparison
@@ -311,6 +325,9 @@ Compare average injuries under:
 
 #### Business Value
 Evaluates the impact of lighting conditions on crash severity.
+
+<img width="1389" height="429" alt="image" src="https://github.com/user-attachments/assets/4ac95094-c12e-4272-bb35-15f836497539" />
+
 ________________________________________
 ### Query 7
 Traffic Control Device with Highest Average Injuries
@@ -327,6 +344,9 @@ Examples:
 
 #### Business Value
 Supports traffic infrastructure improvements.
+
+<img width="1377" height="360" alt="image" src="https://github.com/user-attachments/assets/13b7e233-f000-468b-9e01-2db410728b93" />
+
 ________________________________________
 ### Query 8
 Top 5 Crash Locations
@@ -343,6 +363,9 @@ Fields Used
 
 #### Business Value
 Pinpoints accident hotspots.
+
+<img width="1359" height="551" alt="image" src="https://github.com/user-attachments/assets/5131e5dd-5b3f-48c2-8fd4-f3531c717640" />
+
 ________________________________________
 ### Query 9
 Streets with Highest Injury Rate
@@ -351,6 +374,9 @@ Find streets where crashes are most likely to cause injuries.
 constraint only streets with, more than 100 crashes are considered.
 #### Business Value
 Improves prioritization of safety interventions.
+
+<img width="1366" height="519" alt="image" src="https://github.com/user-attachments/assets/54f52a03-8db9-4ef5-8594-a1bb2b8e2f37" />
+
 ________________________________________
 ### Query 10
 Most Common Crash Type Per Year
@@ -365,6 +391,9 @@ Techniques Used
 
 #### Business Value
 Tracks long-term accident trends.
+
+<img width="1363" height="612" alt="image" src="https://github.com/user-attachments/assets/db08e7b1-a61d-4008-857a-59caaeb6248d" />
+
 ________________________________________
 ### Query 11
 Day of Week with Highest Average Crashes
@@ -372,6 +401,9 @@ Day of Week with Highest Average Crashes
 Determine which weekday experiences the highest average crashes per hour.
 ### Business Value
 Supports scheduling of enforcement and monitoring activities.
+
+<img width="1363" height="636" alt="image" src="https://github.com/user-attachments/assets/f6ea7151-330f-46ce-b9c1-ab3e6b48c4be" />
+
 ________________________________________
 ### Query 12
 High-Risk Time Buckets
@@ -388,6 +420,9 @@ Time Groups
 Find which period records the most injury crashes.
 #### Business Value
 Helps focus road safety campaigns.
+
+<img width="1376" height="480" alt="image" src="https://github.com/user-attachments/assets/a20fa466-b988-48d6-8e65-3c95ece27fdb" />
+
 ________________________________________
 ### Query 13
 Top 3 Causes for Each Crash Type
@@ -409,6 +444,9 @@ Identify:
 
 #### Business Value
 Provides root-cause analysis.
+
+<img width="1367" height="454" alt="image" src="https://github.com/user-attachments/assets/b46db581-6f88-4d15-945f-5b0bf219b6dc" />
+
 ________________________________________
 ### Query 14
 Year-over-Year Crash Growth Rate
@@ -421,6 +459,9 @@ LAG()
 
 #### Business Value
 Tracks whether road safety is improving or worsening.
+
+<img width="1356" height="608" alt="image" src="https://github.com/user-attachments/assets/5c8c649a-15ef-480a-96de-554f828997cc" />
+
 ________________________________________
 ### Query 15
 Crash Hotspot Zones
@@ -433,6 +474,9 @@ Longitude → 2 decimal places
 
 #### Business Value
 Identifies geographic clusters with high accident frequency.
+
+<img width="1360" height="761" alt="image" src="https://github.com/user-attachments/assets/76c9b511-8962-4268-8256-acadb599b1df" />
+
 ________________________________________
 
 ## 📈 SQL Concepts Demonstrated
@@ -440,12 +484,9 @@ ________________________________________
 This project showcases advanced SQL techniques including:
 
 * Common Table Expressions (CTEs)
-* Aggregate Functions
-* Window Functions
-* ROW_NUMBER()
-* RANK()
-* LAG()
-* GROUP BY & HAVING
+* Aggregate Functions - GROUP BY & HAVING
+* Window Functions - ROW_NUMBER(),RANK(),LAG()
+* Subqueries
 * Date & Time Analysis
 
 ________________________________________
