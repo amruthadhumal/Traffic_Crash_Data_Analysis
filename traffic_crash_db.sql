@@ -4,7 +4,7 @@ SELECT count(*) FROM traffic_crash_data;
 
 -- Query-1 : Find the top 5 most dangerous combinations of weather and crash type based on total crashes.
 
-SELECT WEATHER_CONDITION, CRASH_Ttraffic_crash_dataYPE, COUNT(*) AS total_crashes
+SELECT WEATHER_CONDITION, CRASH_TYPE, COUNT(*) AS total_crashes
 FROM traffic_crash_data
 WHERE INJURIES_TOTAL > 0
 GROUP BY WEATHER_CONDITION, CRASH_TYPE
