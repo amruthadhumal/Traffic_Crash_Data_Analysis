@@ -21,8 +21,6 @@ The project uses:
 * Identify accident-prone streets and hotspot zones
 * Evaluate the impact of weather and lighting conditions
 * Understand injury severity across crash types
-* Discover primary causes of accidents
-* Build an interactive dashboard for visualization and reporting
 
 ---
 
@@ -134,7 +132,7 @@ df.isnull().sum()
 
 ### Purpose
 
-Identifies incomplete records that may affect analysis.
+Identifies incomplete/missing records that may affect analysis.
 ________________________________________
 
 ### Check Duplicate Values
@@ -201,9 +199,7 @@ USE traffic_crash_db;
 Makes MySQL use the newly created database.
 ________________________________________
 ### Step 8: Create Traffic Crash Table
-A table named:
-traffic_crash_data
-is created.
+A table named: traffic_crash_data is created.
 
 ### Major Columns
 | Column                  | Description             |
@@ -510,12 +506,15 @@ Provides:
 
 •	Road safety insights
 
+
+<img width="1811" height="550" alt="image" src="https://github.com/user-attachments/assets/10db9f99-30b3-4c4e-a48e-3676d7093750" />
+
+
 ________________________________________
 
 ## ⭐ Key Features
 
 * Data Cleaning & Transformation
-* Relational Database Design
 * MySQL Integration
 * Advanced SQL Analytics
 * Interactive Dashboard Development
