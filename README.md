@@ -530,6 +530,6 @@ The solution helps stakeholders:
 * Understand accident causes
 ________________________________________
 
-## Conclusion
+## 📌 Conclusion
 The Traffic Crash Analytics & Safety Intelligence Platform transforms raw traffic crash records into meaningful safety insights. By combining Python, MySQL, SQL analytics, and Streamlit visualization, the project enables data-driven decision-making for traffic management, accident prevention, and public safety improvement.
 
